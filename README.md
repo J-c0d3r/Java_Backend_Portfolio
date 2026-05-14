@@ -7,4 +7,4 @@ Currently building new projects focused on:
 - Database integration
 - Clean code and maintainability
 
-More updates coming soon.
+More updates **coming soon.**
