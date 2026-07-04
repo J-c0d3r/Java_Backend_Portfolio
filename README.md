@@ -1,40 +1,57 @@
-# Java Backend Portfolio
+# ☕Java Backend Portfolio
 
-Backend studies and projects using Java, Spring Boot and SQL.
+Backend studies and projects using **Java**, **Spring Boot** and **SQL**.
 
-The current projects focus on:
+## Current Stack
 
-- REST APIs
-- CRUD operations
-- Database integration
-- Spring Boot fundamentals
-- Clean code and maintainability
+- ✅ Java
+- ✅ Spring Boot & Web
+- ✅ REST APIs
+- ✅ CRUD Operations
+- ✅ Maven
+- ✅ Git & GitHub
+- ✅ SQL
+- ✅ H2 Database
 
-## Technologies
+## Roadmap
 
-<img height="25px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"/> Java + <img height="25px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg"/> Spring Boot
-- Spring Web
-- Spring Data JPA
-- Lombok
-- H2 Database
+This portfolio is continuously expanded as I study and implement new backend technologies through practical projects.
+
+- 🚧 Dependency Injection (IoC / DI)
+- 🚧 Spring Data JPA & Hibernate
+- 🚧 Docker & Docker Compose
+
+- 🚧 MongoDB
+- ⏳ PostgreSQL
+
+- ⏳ Exception Handling
+- ⏳ Bean Validation
+- ⏳ JUnit 5 & Mockito
+- ⏳ Swagger / OpenAPI
+- ⏳ JWT Authentication
+- ⏳ Spring Security
+- ⏳ Flyway
+- ⏳ Apache Kafka
+- ⏳ Redis
+- ⏳ AWS
+
+<br>
+<strong>Others:</strong> Lombok
 
 ## Portfolio Context
 
-This repository is part of my software engineering portfolio.
-
-Through these projects, I apply and improve my skills in <strong>backend development, test automation and software engineering</strong> through hands-on practice.
-
-The <strong>GOAL</strong> is to demonstrate technical skills, adaptability and continuous learning across different areas of software development.
+This repository is part of my Software Engineering portfolio, where I build practical projects to strengthen my backend development skills through continuous learning and real-world implementation.
 
 ## Other Portfolios
 
 ### 🧪 QA Automation Portfolio
-Automation projects focused on API testing, end-to-end testing and CI/CD workflows using tools such as Cypress, Karate DSL and Postman.<br>
-[QA Automation Portfolio](https://github.com/J-c0d3r/QA_Portfolio)
 
-### 🎮 Game Development Portfolio
-Projects and studies related to gameplay programming, systems development and software architecture concepts applied in game development.<br>
-[Game Development Portfolio](https://github.com/Juan-GameEngineering)
+Automation projects focused on API testing, end-to-end testing and CI/CD.
 
----
-More backend projects and improvements are <b>coming soon.</b>
+➡️ https://github.com/J-c0d3r/QA_Portfolio
+
+### 🎮 Game Programming Portfolio
+
+Projects focused on gameplay programming, software architecture and game systems.
+
+➡️ https://github.com/Juan-GameEngineering

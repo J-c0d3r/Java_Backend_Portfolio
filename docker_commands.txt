@@ -1,0 +1,49 @@
+docker compose up -> Lê o arquivo docker-compose.yml, cria a rede e os volumes (se ainda não existirem), cria os containers (caso não existam) e inicia todos os serviços definidos.
+
+docker compose up -d -> Faz exatamente o mesmo que o up, porém executa tudo em segundo plano (detached), liberando o terminal para você continuar trabalhando.
+
+docker compose down -> Para e remove todos os containers criados pelo Compose, além de remover a rede do projeto. As imagens e os volumes permanecem armazenados.
+
+docker compose down -v -> Faz o mesmo que o down, porém remove também os volumes, apagando todos os dados persistidos pelos containers.
+
+docker compose stop -> Apenas para todos os containers do projeto, mantendo-os criados para que possam ser iniciados novamente.
+
+docker compose start -> Inicia novamente os containers que foram parados com o comando stop, sem recriá-los.
+
+docker compose restart -> Reinicia todos os containers do projeto, equivalente a executar um stop seguido de um start.
+
+docker compose build -> Constrói ou reconstrói as imagens dos serviços que utilizam a instrução build no docker-compose.yml, seguindo as instruções do Dockerfile.
+
+docker compose logs -> Exibe os logs de todos os containers do projeto para acompanhar a execução ou identificar erros.
+
+docker ps -> Lista todos os containers que estão em execução no momento.
+
+docker ps -a -> Lista todos os containers existentes, inclusive os que estão parados.
+
+docker images -> Lista todas as imagens armazenadas localmente.
+
+docker pull <imagem> -> Baixa uma imagem do Docker Hub para a máquina local.
+
+docker stop <container> -> Para a execução de um container específico, mantendo-o criado.
+
+docker start <container> -> Inicia um container específico que está parado.
+
+docker restart <container> -> Reinicia um container específico.
+
+docker rm <container> -> Remove um container parado do sistema.
+
+docker rmi <imagem> -> Remove uma imagem da máquina, desde que ela não esteja sendo utilizada por nenhum container.
+
+docker logs <container> -> Exibe os logs gerados por um container específico.
+
+docker exec -it <container> bash -> Abre um terminal Bash dentro do container para executar comandos manualmente (caso o Bash exista).
+
+docker exec -it <container> sh -> Abre um terminal Shell dentro do container, utilizado em imagens mais leves que não possuem Bash.
+
+docker inspect <container> -> Exibe todas as informações de configuração e execução do container, como IP, portas, volumes, redes e variáveis de ambiente.
+
+docker system prune -> Remove containers parados, redes não utilizadas e cache de build, liberando espaço em disco.
+
+docker system prune -a -> Faz uma limpeza mais completa, removendo também imagens que não estão sendo utilizadas por nenhum container.
+
+docker system df -> "O que está ocupando espaço no meu Docker?"
