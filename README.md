@@ -20,10 +20,10 @@ This portfolio is continuously expanded as I study and implement new backend tec
 - 🚧 Dependency Injection (IoC / DI)
 - 🚧 Spring Data JPA & Hibernate
 - 🚧 Docker & Docker Compose
-<br>
+
 - 🚧 MongoDB
 - 🚧 PostgreSQL
-<br>
+
 - ⏳ Exception Handling
 - ⏳ Bean Validation
 - ⏳ JUnit 5 & Mockito
