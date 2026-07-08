@@ -1,5 +1,6 @@
 package com.jc0d3r.api_produto_jwt_postgresql.Services;
 
+import com.jc0d3r.api_produto_jwt_postgresql.Exceptions.ResourceNotFoundException;
 import com.jc0d3r.api_produto_jwt_postgresql.Model.Product;
 import com.jc0d3r.api_produto_jwt_postgresql.Repository.ProductRepository;
 import org.springframework.stereotype.Service;
@@ -20,8 +21,9 @@ public class ProductService {
         return productRep.findAll();
     }
 
-    public Optional<Product> searchById(Long id) {
-        return productRep.findById(id);
+    public Product findById(Long id) {
+        return productRep.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Product with ID " + id + "not found"));
     }
 
     public Product saveProduct(Product product) {
@@ -29,6 +31,11 @@ public class ProductService {
     }
 
     public void deleteProduct(Long id) {
+
+        if (!productRep.existsById(id))
+            throw new ResourceNotFoundException("Product with ID " + id + "not found");
+
         productRep.deleteById(id);
     }
+
 }
