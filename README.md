@@ -10,7 +10,7 @@ Backend studies and projects using **Java**, **Spring Boot** and **SQL**.
 - ✅ CRUD Operations
 - ✅ Maven
 - ✅ Git & GitHub
-- ✅ SQL
+- ✅ SQL + DBeaver
 - ✅ H2 Database
 
 ## Roadmap
@@ -20,10 +20,10 @@ This portfolio is continuously expanded as I study and implement new backend tec
 - 🚧 Dependency Injection (IoC / DI)
 - 🚧 Spring Data JPA & Hibernate
 - 🚧 Docker & Docker Compose
-
+<br>
 - 🚧 MongoDB
-- ⏳ PostgreSQL
-
+- 🚧 PostgreSQL
+<br>
 - ⏳ Exception Handling
 - ⏳ Bean Validation
 - ⏳ JUnit 5 & Mockito
